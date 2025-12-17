@@ -1,0 +1,35 @@
+
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    font-style: bold;
+    font-weight: 700;
+    src: local("OpenSans-Bold"),
+         url("OpenSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "OpenSans_Condensed-BoldItalic";
+    font-style: bold;
+    font-weight: 700;
+    src: local("OpenSans_Condensed-BoldItalic"),
+         url("OpenSans_Condensed-BoldItalic.woff") format("woff");
+}
+
+.body {
+    font-family: "OpenSans-Bold", sans-serif;
+}
+.header {
+    font-family: "OpenSans-Bold", sans-serif;
+    font-size: 30px;
+}
+
+.block__name_info{
+    font-family: "OpenSans_Condensed-BoldItalic", sans-serif;
+    font-size: 30px;
+}
+
+.footer {
+        font-family: "OpenSans-Bold", sans-serif;
+        font-size: 30px;
+}
